@@ -1,0 +1,18 @@
+# Runtime dependencies for the uKNIT-BC cryptanalysis code.
+#
+# The reviewer-facing entry points (cryptanalysis_clean.py, section6/reproduce.py)
+# need NONE of these — they are standard-library only.  The packages below are
+# required to re-run the SAT/MILP attack scripts.
+
+numpy>=1.23
+galois>=0.3
+
+# Optional: only needed for QuasiDiff/quasi.py (Gurobi MILP).
+# gurobipy>=10.0
+
+# External binaries (NOT installable via pip):
+#   * kissat (or another SAT solver) on PATH — used by myutility.sat.
+#     Configurable via sat.solve(..., solver='kissat'/'cryptominisat'/'maplesat').
+#   * espresso (logic minimizer) on PATH — used by myutility.espresso.
+#   * pdflatex with the TikZ package — only for compiling the generated
+#     attack figures under */LATEX/.

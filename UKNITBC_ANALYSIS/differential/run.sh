@@ -1,0 +1,12 @@
+python3 maindiff.py 1 0 3
+python3 maindiff.py 2 3 12
+python3 maindiff.py 3 12 18
+python3 maindiff.py 4 28 37
+python3 maindiff.py 5 32 45
+python3 maindiff.py 6 40 60
+python3 maindiff.py 7 50 70
+python3 maindiff.py 8 60 80
+python3 maindiff.py 9 70 90
+python3 maindiff.py 10 80 100
+python3 maindiff.py 11 90 110
+python3 maindiff.py 12 100 120

@@ -1,0 +1,32 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# SAT solver scratch directories produced by myutility.sat at runtime.
+SAT/
+*/SAT/
+
+# Espresso scratch directories produced by myutility.espresso at runtime.
+ESPRESSO/
+*/ESPRESSO/
+
+# LaTeX/PDF outputs produced by the attack drivers.
+*/LATEX/
+*/Latex/
+*.aux
+*.log
+*.pdf
+!Uknit_BC.pdf
+
+# Attack sweep result directories — typically large, regenerated on demand.
+*/Differential/
+*/Linear/
+*/LinearHull/
+*/Boom/
+*/DL/
+*/ZC/
+*/UKNITBC_Matrix/
+*/IMPOSSIBEL/
+*/IDKEY/
+*/DP/
+*/keyrecovery/

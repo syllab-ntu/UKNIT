@@ -1,0 +1,8 @@
+.venv
+uknit-constructions/.venv
+UKNITBC_ANALYSIS/__MACOSX
+uknit-constructions/__pycache__
+uknit-constructions/yosys/yosys_results_*
+uknit-constructions/main_tmp/
+uknit-constructions/runs/
+__pycache__/
